@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="sikumim",
-    version="0.1.4",
+    version="0.1.5",
     author="Eitan Sztuden",
     description="A simple tool to download lecture notes, written by Regev Yehezkel Imra",
     long_description=open("README.md").read(),

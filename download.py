@@ -44,12 +44,11 @@ def download_files(course, output_path):
 
 
 def main():
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument("course", help="Desired course content")
-    # parser.add_argument("path", help="Output path for parsed content")
-    # args = parser.parse_args()
-    # download_files(args.course, args.path)
-    download_files("topology", "test")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("course", help="Desired course content")
+    parser.add_argument("path", help="Output path for parsed content")
+    args = parser.parse_args()
+    download_files(args.course, args.path)
 
 
 if __name__ == "__main__":
